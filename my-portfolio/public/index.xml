@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swayam&#39;s Portfolio</title>
+    <link>https://swayam-agrahari.github.io/</link>
+    <description>Recent content on Swayam&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2023 01:21:59 +0530</lastBuildDate><atom:link href="https://swayam-agrahari.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing and Deploying a Portfolio.</title>
+      <link>https://swayam-agrahari.github.io/blogs/markdown-syntax/</link>
+      <pubDate>Sun, 10 Sep 2023 01:21:59 +0530</pubDate>
+      
+      <guid>https://swayam-agrahari.github.io/blogs/markdown-syntax/</guid>
+      <description>Task 2: Building My Portfolio Website with Hugo In this task, I was given to create my own portfolio website using Hugo, a powerful open-source website generator. It was a great experience, and I got to learn many things .
+Installing HUGO and Creating Server To install HUGO in my Ubuntu, I refered Install Linux Guide .So I ran following commands in the terminal; It created a local server for me to use and customize the portfolio.</description>
+    </item>
+    
+  </channel>
+</rss>

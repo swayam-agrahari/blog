@@ -1,0 +1,162 @@
+baseURL = "https://swayam-agrahari.github.io"
+languageCode = "en-us"
+title = "Swayam's Portfolio"
+theme = "hugo-profile"
+
+Paginate = 3
+enableRobotsTXT = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Blog posts"
+url = "/blogs"
+weight = 1
+
+[params]
+title = "Swayam's Portfolio"
+description = "Exploring the world of technology and innovation"
+favicon = "/fav.png"
+useBootstrapCDN = false
+animate = true
+
+[params.font]
+fontSize = "1.2rem"
+fontWeight = 400
+lineHeight = 1.5
+textAlign = "left"
+
+[params.navbar]
+align = "ms-auto"
+brandName = "Swayam's Portfolio"
+disableSearch = false
+
+[params.navbar.menus]
+disableAbout = false
+disableExperience = false
+disableEducation = false
+disableProjects = false
+disableAchievements = false
+disableContact = false
+
+[params.hero]
+enable = true
+intro = "Hi, my name is"
+title = "Swayam Agrahari."
+subtitle = "Exploring the realms of technology."
+content = "I'm a tech enthusiast and a Computer Science & Engineering student at Amrita Vishwa Vidyapeetham,Amritapuri. Let's create, innovate, and explore together!"
+image = "img/profile.jpg"
+
+[params.hero.bottomImage]
+enable = true
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/swayam-agrahari"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-facebook"
+url = "https://www.facebook.com/profile.php?id=100034674586005&mibextid=9R9pXO"
+
+[[params.hero.socialLinks.customIcons]]
+icon = "img/snapchat-logo.png"
+url = "https://www.snapchat.com/add/swayam_np"
+
+
+
+
+[params.about]
+  enable = true
+  title = "About Me"
+  image = "img/profile.jpg"
+content = """
+I'm a tech geek with a strong passion for building things. I love connecting with new people, playing badminton, and watching movies.
+
+
+<br>"""
+
+
+    [params.about.skills]
+    enable = true
+    title = "Skills"
+    items = [ "C","PYTHON","HTML", "CSS", "JavaScript","PHP"]
+
+[params.education]
+enable = true
+index = false
+
+[[params.education.items]]
+title = "B Tech in Computer Science"
+date = "2023 - 2027"
+GPA = "Studious Journey Begins"
+content = """
+Studying at Amrita Vishwa Vidyapeetham, Amritapuri. A  place which provide qualit yeducation and life-based knowledge!
+"""
+
+[params.education.items.school]
+name = "Amrita Vishwa Vidyapeetham, Amritapuri"
+url = "https://www.amrita.edu/"
+
+[[params.education.items]]
+title = "High School"
+date = "2021 - 2023"
+GPA = "3.7 (Impressive Results)"
+content = """
+During high school, I participated in Hacktoberfest'22, igniting my passion for tech. I also developed a result management system with my friends.
+"""
+
+[params.education.items.school]
+name = "Arniko Awasiya College"
+url = "https://example.org"
+
+
+
+  [params.achievements]
+enable = true
+
+[[params.achievements.items]]
+title = "Hacktoberfest 2022"
+content = "Contributed to open source throughout October."
+url = ""
+image = "/img/hflogo.jpg"
+
+[params.projects]
+  enable = true
+
+    [[params.projects.items]]
+    title   = "Arniko Outcomes"
+    content = "A project that provides examination result to the student in a simple way."
+    image = "/img/project1.png"
+    badges = [ "Html", "CSS", "Javascript","PHP", "MySQL" ]
+
+
+
+      [[params.projects.items.links]]
+      icon = "fab fa-github"
+      url = "https://github.com/swayam-agrahari/Result_Management_System-"
+
+    
+
+[params.contact]
+enable = true
+content = "Ready to collaborate or just want to chat? Feel free to drop me a message!"
+email = "swayamagrahari1@gmail.com"
+btnName = "Send Me a Message"
+
+[params.footer.socialNetworks]
+github = "https://github.com/swayam-agrahari"
+instagram = "https://instagram.com"
+facebook = "https://www.facebook.com/profile.php?id=100034674586005&mibextid=9R9pXO"
+
+[params.terms]
+read = "Read"
+toc = "Table Of Contents"
+copyright = "All rights reserved"
+emailText = "Explore my website!"

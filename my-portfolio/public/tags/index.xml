@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Swayam&#39;s Portfolio</title>
+    <link>https://swayam-agrahari.github.io/tags/</link>
+    <description>Recent content in Tags on Swayam&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2023 01:21:59 +0530</lastBuildDate><atom:link href="https://swayam-agrahari.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMFoss</title>
+      <link>https://swayam-agrahari.github.io/tags/amfoss/</link>
+      <pubDate>Sun, 10 Sep 2023 01:21:59 +0530</pubDate>
+      
+      <guid>https://swayam-agrahari.github.io/tags/amfoss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://swayam-agrahari.github.io/tags/hugo/</link>
+      <pubDate>Sun, 10 Sep 2023 01:21:59 +0530</pubDate>
+      
+      <guid>https://swayam-agrahari.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://swayam-agrahari.github.io/tags/portfolio/</link>
+      <pubDate>Sun, 10 Sep 2023 01:21:59 +0530</pubDate>
+      
+      <guid>https://swayam-agrahari.github.io/tags/portfolio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
